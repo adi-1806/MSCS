@@ -91,10 +91,15 @@ WSGI_APPLICATION = 'CRCS.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'sql12627530',
+        'HOST': 'sql12.freemysqlhosting.net',
+        'PORT': '3306',
+        'USER': 'sql12627530',
+        'PASSWORD': 'jA9htEhXir'
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
